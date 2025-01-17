@@ -8,28 +8,27 @@ nav{
     background-color:#3e2c1c;
 }
 
-/* Align navbar items vertically and adjust spacing */
 .navbar-nav .nav-item {
   display: flex;
-  align-items: center; /* Aligns items (text and SVG icons) vertically */
-  margin-right: 10px; /* Adjust spacing between items */
+  align-items: center;
+  margin-right: 10px; 
   margin-top: 0;
   padding-bottom: 0;
 }
 
-/* Align SVG icons and set their size */
+
 .navbar-nav .nav-item svg {
-  width: 24px; /* Adjust size as needed */
-  height: 24px; /* Adjust size as needed */
-  margin-right: 5px; /* Space between icon and text */
-  vertical-align: middle; /* Aligns icons better with text */
+  width: 24px; 
+  height: 24px; 
+  margin-right: 5px; 
+  vertical-align: middle; 
 }
 
 svg {
 
-  width: 24px; /* Adjust this value to your preferred size */
-  height: 24px; /* Ensures all icons have the same height */
-  vertical-align: middle; /* Aligns icons better with text */
+  width: 24px; 
+  height: 24px; 
+  vertical-align: middle; 
 }
 
 nav svg {
@@ -49,7 +48,7 @@ nav a {
     font-size: 1em;
 }
 nav a:hover {
-    background-color: #74553d; /* Burnt Orange */
+    background-color: #d61818; /* Burnt Orange */
     color: white;
 }
 /* logo styling*/
@@ -124,7 +123,7 @@ pre{
     border-radius: 5px;
 }
 .overlay button:hover{
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #d61818;
 }
 /* search form styling*/
 form{
