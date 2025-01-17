@@ -7,6 +7,38 @@ body {
 nav{
     background-color:#3e2c1c;
 }
+
+/* Align navbar items vertically and adjust spacing */
+.navbar-nav .nav-item {
+  display: flex;
+  align-items: center; /* Aligns items (text and SVG icons) vertically */
+  margin-right: 10px; /* Adjust spacing between items */
+  margin-top: 0;
+  padding-bottom: 0;
+}
+
+/* Align SVG icons and set their size */
+.navbar-nav .nav-item svg {
+  width: 24px; /* Adjust size as needed */
+  height: 24px; /* Adjust size as needed */
+  margin-right: 5px; /* Space between icon and text */
+  vertical-align: middle; /* Aligns icons better with text */
+}
+
+svg {
+
+  width: 24px; /* Adjust this value to your preferred size */
+  height: 24px; /* Ensures all icons have the same height */
+  vertical-align: middle; /* Aligns icons better with text */
+}
+
+nav svg {
+  width: 24px;
+  height: 24px;
+}
+
+
+
 nav a {
     display: inline-block;
     background-color: white;
