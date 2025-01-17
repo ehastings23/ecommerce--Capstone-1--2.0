@@ -12,13 +12,11 @@ h1 {
     font-size: 35px;
    }
 
-table{
-    background-color: rgba(187, 155, 62, 0.686);
-     width: 12px;
 }
 .card-body{
-    background-color: rgb(194, 154, 81);
+
     color: rgb(1, 4, 12);
+    background-color: rgba(255, 255, 255, 0.4)
 }
 .card{
     margin-bottom: 1rem;
@@ -243,4 +241,48 @@ footer {
   color: #fff; /* Optional: Ensure text is readable over the video */
 }
 
-  
+/* Align SVG icons and set their size */
+.navbar-nav .nav-item svg {
+  width: 24px; /* Adjust size as needed */
+  height: 24px; /* Adjust size as needed */
+  margin-right: 5px; /* Space between icon and text */
+  vertical-align: middle; /* Aligns icons better with text */
+}
+
+svg {
+
+  width: 24px; /* Adjust this value to your preferred size */
+  height: 24px; /* Ensures all icons have the same height */
+  vertical-align: middle; /* Aligns icons better with text */
+}
+
+nav svg {
+  width: 24px;
+  height: 24px;
+}
+
+
+
+nav a {
+    display: inline-block;
+    background-color: white;
+    color: rgb(109, 88, 61);
+    margin-right: 0.3rem;
+    padding: 0.5rem ;
+    text-decoration: none;
+    font-size: 1em;
+}
+nav a:hover {
+    background-color: #74553d; /* Burnt Orange */
+    color: white;
+}
+/* logo styling*/
+.headerpic{
+    height: 4.5rem;
+    width: auto;
+    color: white;
+}
+
+
+
+
